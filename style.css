@@ -1,0 +1,63 @@
+/* General Styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+html{
+    background-color:hsl(212, 45%, 89%)
+}
+/* Styling of the QR-code component */
+.container-fluid{
+    background-color:hsl(212, 45%, 89%) ;
+}
+.qr-box{
+    background-color: hsl(0, 0%, 100%);
+    width:  18.85em;
+    height :auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+.image{
+    width: 100%;
+    background-size: cover;
+    padding: 1em;
+    border-radius: 30px;
+}
+.qr-box-body{
+    width: 80%;
+}
+.qr-box-body h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%)
+}
+.qr-box-body p{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 1em;
+}
+/* bottom styling*/
+.attribution{
+    text-align: center;
+    font-size: 11px; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
